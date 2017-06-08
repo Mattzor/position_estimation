@@ -1,0 +1,6 @@
+run: 
+source devel/setup.bash
+roscore
+rosrun position_estimation gulliprint
+rosrun gulliview_sever gulliview
+start gulliview on remote server

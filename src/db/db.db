@@ -1,0 +1,30 @@
+
+# Hashtag starts a comment, has to be on a own line with no whitespace or other stuff before it.
+
+
+# A Polygon, each vertex coords on a new line, first vertex will get id 0,
+# the next id 1 and so on. It's important that they come in the right order.
+BEGIN POLYGON
+  0,0
+  3,0
+  3,3
+  0,3
+END POLYGON
+
+
+BEGIN POLYGON
+  0,0
+  3,0
+  4,1
+  5,0
+  4,2
+  2,2  
+END POLYGON
+
+
+# A marking, on the first line write the id of the marking
+# and on the second the coord  x,y
+BEGIN MARKING
+  1
+  4,6  
+END MARKING
